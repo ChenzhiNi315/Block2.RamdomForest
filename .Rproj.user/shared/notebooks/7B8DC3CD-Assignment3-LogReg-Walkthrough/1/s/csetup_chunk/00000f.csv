@@ -1,0 +1,41 @@
+"0","# Load our package and helper libraries"
+"0","library(Assignment3.LogisticRegression)"
+"2","G3;
+载入程序包：‘Assignment3.LogisticRegression’
+
+g"
+"2","G3;The following objects are masked _by_ ‘.GlobalEnv’:
+
+    fit_complex_logreg, fit_simple_logreg, get_decision_boundary,
+    plot_glucose_age
+
+g"
+"0","library(ggplot2)"
+"2","G2;H2;警告h: 程序包‘ggplot2’是用R版本4.5.2 来建造的g
+"
+"0","library(gridExtra) # For side-by-side plots in Task 4"
+"2","G2;H2;警告h: 程序包‘gridExtra’是用R版本4.5.2 来建造的g
+"
+"0","library(dplyr)"
+"2","G2;H2;警告h: 程序包‘dplyr’是用R版本4.5.1 来建造的g
+"
+"2","G3;
+载入程序包：‘dplyr’
+
+g"
+"2","G3;The following object is masked from ‘package:gridExtra’:
+
+    combine
+
+g"
+"2","G3;The following objects are masked from ‘package:stats’:
+
+    filter, lag
+
+g"
+"2","G3;The following objects are masked from ‘package:base’:
+
+    intersect, setdiff, setequal, union
+
+g"
+"0","library(stats)"

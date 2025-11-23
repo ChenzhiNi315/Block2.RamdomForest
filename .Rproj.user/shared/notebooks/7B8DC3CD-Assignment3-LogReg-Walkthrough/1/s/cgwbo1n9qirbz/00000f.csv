@@ -1,0 +1,8 @@
+"0","# 1. Call our function to fit the model"
+"0","simple_model <- fit_simple_logreg(pima, threshold = 0.5)"
+"0",""
+"0","# 2. Extract the model and coefficients"
+"0","glm_fit <- simple_model$glm_fit"
+"0","b0 <- round(coef(glm_fit)[1], 4) # Intercept"
+"0","b1 <- round(coef(glm_fit)[2], 4) # Glucose"
+"0","b2 <- round(coef(glm_fit)[3], 4) # Age"

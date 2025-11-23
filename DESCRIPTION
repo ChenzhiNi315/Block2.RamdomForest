@@ -1,0 +1,24 @@
+Package: Block2.RamdomForest
+Type: Package
+Title: Runs Simulations for Assignment 1
+Version: 0.1.0
+Authors@R: 
+    c(person(given = "Chenzhi",
+             family = "Ni",
+             email = "pinkmannicz@gmail.com",
+             role = c("aut", "cre")))
+Description: A package to run random forest simulations as described in Assignment 1.
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 7.3.3
+Imports: 
+    randomForest,
+    tidyr,
+    tidyselect
+Suggests:
+    knitr,
+    rmarkdown,
+    ggplot2,
+    dplyr
+VignetteBuilder: knitr

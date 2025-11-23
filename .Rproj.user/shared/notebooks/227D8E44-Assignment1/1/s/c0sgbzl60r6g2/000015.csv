@@ -1,0 +1,18 @@
+"0","# Run the simulation for Task 2"
+"0","task2_results <- run_task2()"
+"2","G3;Running Task 2 (condition: x1 < 0.5, nodesize: 25)...
+g"
+"2","G3;Task 2 complete.
+g"
+"0","# 1. Calculate and print the summary table"
+"0","task2_summary <- task2_results %>%"
+"0","  group_by(ntree) %>%"
+"0","  summarise("
+"0","    mean_error = mean(error_rate),"
+"0","    variance_error = var(error_rate)"
+"0","  )"
+"0",""
+"0","print(""--- Summary Statistics for Task 2 ---"")"
+"1","[1] ""--- Summary Statistics for Task 2 ---""
+"
+"0","print(task2_summary)"

@@ -1,0 +1,18 @@
+"0","# Run the simulation for Task 3"
+"0","task3_results <- run_task3()"
+"2","G3;Running Task 3 (XOR-like problem, nodesize: 12)...
+g"
+"2","G3;Task 3 complete.
+g"
+"0","# 1. Calculate and print the summary table"
+"0","task3_summary <- task3_results %>%"
+"0","  group_by(ntree) %>%"
+"0","  summarise("
+"0","    mean_error = mean(error_rate),"
+"0","    variance_error = var(error_rate)"
+"0","  )"
+"0",""
+"0","print(""--- Summary Statistics for Task 3 ---"")"
+"1","[1] ""--- Summary Statistics for Task 3 ---""
+"
+"0","print(task3_summary)"
